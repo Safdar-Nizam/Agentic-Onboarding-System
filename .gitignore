@@ -1,0 +1,54 @@
+# ── Secrets & Credentials (NEVER commit these) ────────────────────────────────
+.env
+.env.local
+.env.production
+
+# Google API credentials (contain private keys & OAuth tokens)
+credentials.json
+token.json
+service_account.json
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temp / scratch files ──────────────────────────────────────────────────────
+test_*.py
+setup_google_auth.py
+gmail_oauth.py
+/tmp/
